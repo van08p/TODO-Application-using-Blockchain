@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import Web3 from 'web3';
 import { useNavigate } from 'react-router-dom';
 import ABI from "./ABI.json"
+
 const Wallet =({saveState})=>{
     const navigateTo =useNavigate();
     const connectWallet =async()=>{
