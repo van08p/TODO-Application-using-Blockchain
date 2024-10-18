@@ -1,5 +1,6 @@
 import {useState} from "react";
 import Navigation from "../components/Navigation";
+
 const UpdateTask =({state})=>{
     const [modalVisible, setModalVisible] = useState(false);
     const [modalContent, setModalContent] = useState("");
