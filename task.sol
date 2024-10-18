@@ -2,7 +2,6 @@
 pragma solidity ^0.8.20;
 
 contract ToDo{
-
     struct Task{
         uint id;
         string name;
