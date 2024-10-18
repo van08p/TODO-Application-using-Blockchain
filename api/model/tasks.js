@@ -1,4 +1,5 @@
 const {contract}=require('../contract/contract')
+
 const dateclashCheck=async(taskDate)=>{
     const tasks = await contract.methods.allTask().call();
     const foundTask = tasks.find(task=>task.date===taskDate);
