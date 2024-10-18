@@ -6,7 +6,6 @@ import ViewAllTasks from './pages/ViewAllTasks'
 import UpdateTask from './pages/UpdateTask'
 import ViewTask from './pages/ViewTask'
 import DeleteTask from './pages/DeleteTask';
-
 import './App.css'
 
 function App() {
